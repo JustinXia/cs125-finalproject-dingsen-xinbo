@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background5"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button9"
+        android:onClick="button9"
+        android:layout_width="102dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="322dp"
+        android:layout_marginRight="322dp"
+        android:layout_marginBottom="27dp"
+        android:text="More"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:text="Button" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="111dp"
+        android:layout_height="273dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="60dp"
+        android:text="The Dongzhi Festival is one of the most important festivals celebrated by the Chinese and ethnic Chinese in East Asia during the Dongzhi solar term (winter solstice) on or around December 22 (according to East Asia time)."
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="116dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="143dp"
+        android:text="Traditionally, the Dongzhi Festival is also a time for the family to get together. One activity that occurs during these get activity that occurs during these get togethers is the making and eating of tangyuan, which symbolize reunion."
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="376dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="4dp"
+        android:text='The festive food is also a reminder that celebrators are now a year older and should behave better in the coming year. Even today, many Chinese around the world, especially the elderly, still insist that one is "a year older" right after the Dongzhi celebration instead of waiting for the lunar new year.'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="TextView" />
+</android.support.constraint.ConstraintLayout>

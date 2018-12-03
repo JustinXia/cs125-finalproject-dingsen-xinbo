@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".fina">
+
+    <Button
+        android:id="@+id/Double_Ninth_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:onClick="Double_Ninth_Festival"
+        android:text="Double Ninth Festival"
+        app:layout_constraintBottom_toTopOf="@+id/Winter_Solstice_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="Double Ninth Festival" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="371dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="13dp"
+        android:text="      Chinese Traditional Festival Encyclopedia"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Double_Ninth_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        tools:text="      Chinese Traditional Festival Encyclopedia" />
+
+    <Button
+        android:id="@+id/Spring_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:onClick="Spring_Festival"
+        android:text="Spring Festival"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qixi_Festival"
+        tools:text="Spring Festival" />
+
+    <Button
+        android:id="@+id/Winter_Solstice_Festival"
+        android:layout_width="205dp"
+        android:layout_height="61dp"
+        android:onClick="Winter_Solstice_Festival"
+        android:text="Winter Solstice Festiva"
+        app:layout_constraintBottom_toTopOf="@+id/Dragon_Boat_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Double_Ninth_Festival"
+        tools:text="Winter Solstice Festival" />
+
+    <Button
+        android:id="@+id/Qixi_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:onClick="Qixi_Festival"
+        android:text="Qixi Festival"
+        app:layout_constraintBottom_toTopOf="@+id/Spring_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qingming_Festival"
+        tools:text="Qixi Festival" />
+
+    <Button
+        android:id="@+id/Dragon_Boat_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:onClick="Dragon_Boat_Festival"
+        android:text="Dragon Boat Festival"
+        app:layout_constraintBottom_toTopOf="@+id/Lantern_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Winter_Solstice_Festival"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Dragon Boat Festival" />
+
+    <Button
+        android:id="@+id/Qingming_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="Qingming_Festival"
+        android:text="Qingming Festival"
+        app:layout_constraintBottom_toTopOf="@+id/Qixi_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Mid-Autumn_Festival"
+        tools:text="Qingming Festival" />
+
+    <Button
+        android:id="@+id/Lantern_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:onClick="Lantern_Festival"
+        android:text="Lantern Festival"
+        app:layout_constraintBottom_toTopOf="@+id/Mid-Autumn_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Dragon_Boat_Festival"
+        tools:text="Lantern Festival" />
+
+    <Button
+        android:id="@+id/Mid-Autumn_Festival"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:onClick="Mid-Autumn_Festival"
+        android:text="Mid-Autumn Festival"
+        app:layout_constraintBottom_toTopOf="@+id/Qingming_Festival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lantern_Festival"
+        tools:text="Mid-Autumn Festival" />
+
+</android.support.constraint.ConstraintLayout>

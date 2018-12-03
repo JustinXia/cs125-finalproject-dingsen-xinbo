@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apple.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fina">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".doubleninth"/>
+        <activity android:name=".wintersolsticefestival"/>
+        <activity android:name=".springfestival"/>
+        <activity android:name=".qixi"/>
+        <activity android:name=".qingming"/>
+        <activity android:name=".midautumn"/>
+        <activity android:name=".lantern"/>
+        <activity android:name=".dragonboat"/>
+        <activity android:name=".doubleninth_webview"/>
+        <activity android:name=".dragonboat_webview"/>
+        <activity android:name=".lantern_webview"/>
+        <activity android:name=".midautumn_webview"/>
+        <activity android:name=".qingming_webview"/>
+        <activity android:name=".qixi_webview"/>
+        <activity android:name=".springfestival_webview"/>
+        <activity android:name=".wintersolsticefestival_webview"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

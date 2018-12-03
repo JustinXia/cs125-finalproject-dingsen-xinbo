@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background3"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button10"
+        android:onClick="button10"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="11dp"
+        tools:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:text="More" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="326dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="202dp"
+        tools:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="The festival is held on the 15th day of the 8th month of the lunar calendar with full moon at night, corresponding to late September to early October of the Gregorian calendar with a full moon at night." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="316dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="14dp"
+        tools:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        android:text="The festival celebrates three fundamental concepts that are closely connected:  Gathering, Thanksgiving and Praying" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="312dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="1dp"
+        tools:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:text="The legend about the Mid-Autumn festival is that when Houyi's wife, Chang'e stole Houyi's elixir, she gained the power of immortality. However, after taking elixir, she flew to the moon in order to ran away from her husband. " />
+</android.support.constraint.ConstraintLayout>

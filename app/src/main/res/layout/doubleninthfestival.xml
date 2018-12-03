@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="392dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text='According to the I Ching, nine is a yang number; the ninth day of the ninth lunar month (or double nine) has too much yang (a traditional Chinese spiritual concept) and is thus a potentially dangerous date. Hence, the day is also called "Double Yang Festival" .'
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="366dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="It is customary to climb a high mountain, drink chrysanthemum liquor, and wear the zhuyu (茱萸) plant, Cornus officinalis.On this holiday some Chinese also visit the graves of their ancestors to pay their respects."
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="304dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="30dp"
+        android:text="Once there was a man named Heng Jing, who believed that a monster would bring pestilence. He told his countrymen to hide on a hill while he went to defeat the monster. Later, people celebrated Heng Jing's defeat of the monster on the ninth day of the ninth lunar month"
+        app:layout_constraintBottom_toTopOf="@+id/Button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:text="TextView" />
+
+    <Button
+        android:id="@+id/Button9"
+        android:onClick="Button9"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="307dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="More"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:text="Button" />
+</android.support.constraint.ConstraintLayout>
